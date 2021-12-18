@@ -40,6 +40,9 @@ packer.init {
 
 -- Install your plugins here
 return packer.startup(function(use)
+  use 'tpope/vim-surround'
+  use 'haishanh/night-owl.vim'
+  use 'bkad/CamelCaseMotion'
   -- My plugins here
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
