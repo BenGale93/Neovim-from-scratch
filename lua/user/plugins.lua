@@ -99,6 +99,7 @@ return packer.startup(function(use)
   use 'tpope/vim-surround'
   use 'haishanh/night-owl.vim'
   use 'bkad/CamelCaseMotion'
+  use "vim-test/vim-test"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
